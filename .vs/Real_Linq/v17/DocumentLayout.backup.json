@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\parsa\\source\\repos\\C#\\Real_Linq\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE172C9-FBED-4EEE-B0EF-C7A92FF72A9F}|Real_Linq\\Real_Linq.csproj|C:\\Users\\parsa\\source\\repos\\C#\\Real_Linq\\real_linq\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FE172C9-FBED-4EEE-B0EF-C7A92FF72A9F}|Real_Linq\\Real_Linq.csproj|solutionrelative:real_linq\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE172C9-FBED-4EEE-B0EF-C7A92FF72A9F}|Real_Linq\\Real_Linq.csproj|c:\\users\\parsa\\source\\repos\\c#\\real_linq\\real_linq\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE172C9-FBED-4EEE-B0EF-C7A92FF72A9F}|Real_Linq\\Real_Linq.csproj|solutionrelative:real_linq\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE172C9-FBED-4EEE-B0EF-C7A92FF72A9F}|Real_Linq\\Real_Linq.csproj|c:\\users\\parsa\\source\\repos\\c#\\real_linq\\real_linq\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE172C9-FBED-4EEE-B0EF-C7A92FF72A9F}|Real_Linq\\Real_Linq.csproj|solutionrelative:real_linq\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:396992276:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\parsa\\source\\repos\\C#\\Real_Linq\\Real_Linq\\Models.cs",
+              "RelativeDocumentMoniker": "Real_Linq\\Models.cs",
+              "ToolTip": "C:\\Users\\parsa\\source\\repos\\C#\\Real_Linq\\Real_Linq\\Models.cs",
+              "RelativeToolTip": "Real_Linq\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T17:09:51.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\parsa\\source\\repos\\C#\\Real_Linq\\Real_Linq\\Form1.cs",
+              "RelativeDocumentMoniker": "Real_Linq\\Form1.cs",
+              "ToolTip": "C:\\Users\\parsa\\source\\repos\\C#\\Real_Linq\\Real_Linq\\Form1.cs*",
+              "RelativeToolTip": "Real_Linq\\Form1.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAtwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T19:43:52.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\parsa\\source\\repos\\C#\\Real_Linq\\Real_Linq\\Form1.cs",
+              "RelativeDocumentMoniker": "Real_Linq\\Form1.cs",
+              "ToolTip": "C:\\Users\\parsa\\source\\repos\\C#\\Real_Linq\\Real_Linq\\Form1.cs [Design]*",
+              "RelativeToolTip": "Real_Linq\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T19:42:44.609Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
