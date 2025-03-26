@@ -32,7 +32,7 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.txtFullName = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgOrders = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this._Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fullname = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,7 +45,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgOrders)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,24 +73,24 @@
             this.txtFullName.Size = new System.Drawing.Size(144, 22);
             this.txtFullName.TabIndex = 3;
             // 
-            // dataGridView1
+            // dgOrders
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgOrders.AllowUserToAddRows = false;
+            this.dgOrders.AllowUserToDeleteRows = false;
+            this.dgOrders.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgOrders.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgOrders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgOrders.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this._Name,
             this.Fullname});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 139);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(294, 150);
-            this.dataGridView1.TabIndex = 4;
+            this.dgOrders.Location = new System.Drawing.Point(12, 139);
+            this.dgOrders.Name = "dgOrders";
+            this.dgOrders.ReadOnly = true;
+            this.dgOrders.RowHeadersWidth = 51;
+            this.dgOrders.RowTemplate.Height = 24;
+            this.dgOrders.Size = new System.Drawing.Size(294, 150);
+            this.dgOrders.TabIndex = 4;
             // 
             // ID
             // 
@@ -215,13 +215,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnRefresh);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgOrders);
             this.Controls.Add(this.txtFullName);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtName);
             this.Name = "Form1";
             this.Text = "Restaurant";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgOrders)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -233,7 +233,7 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.TextBox txtFullName;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgOrders;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

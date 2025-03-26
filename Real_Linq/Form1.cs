@@ -28,36 +28,36 @@ namespace Real_Linq
                 txtName.Text = null;
                 txtFullName.Text = null;
             }
-            dataGridView1.DataSource = people.ToList();
+            dgOrders.DataSource = people.ToList();
             
         }
 
 
         private void button2_Click(object sender, EventArgs e)
         {      
-            dataGridView1.DataSource = people.ToList();
+            dgOrders.DataSource = people.ToList();
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
             var Filter = people.Where(p=>p.Name.Contains(txtSearch.Text)||p.Fullname.Contains(txtSearch.Text)||p.Number.ToString().Contains(txtSearch.Text)).ToList();
-            dataGridView1.DataSource = Filter.ToList();
+            dgOrders.DataSource = Filter.ToList();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            int selectedIndex = dataGridView1.CurrentCell.RowIndex;
+            int selectedIndex = dgOrders.CurrentCell.RowIndex;
             if (selectedIndex > -1)
             {
                 people.RemoveAt(selectedIndex);
             }
-            dataGridView1.DataSource = people.ToList();
+            dgOrders.DataSource = people.ToList();
         }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
             var item = people.Where(p=>p.Name.Contains(txtSearch.Text)||p.Fullname.Contains(txtSearch.Text)).ToList();
-            dataGridView1.DataSource = item;
+            dgOrders.DataSource = item;
         }      
     }
 }
